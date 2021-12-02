@@ -23,11 +23,11 @@ In the new environment, install jupyter notebook
 ```
 conda install jupyter
 ```
-Start jupyter notebook and run the "Amber_local.ipynb"
+Start jupyter notebook and run the "Amber-OpenMM-MD.ipynb"
 ```
 jupyter notebook Amber-OpenMM-MD.ipynb
 ```
-# If you have problem opening jupyter notebook in your "NAMD-MD" environment, try 
+# If you have problem opening jupyter notebook in your "Amber-OpenMM-MD" environment, try 
 ```
 conda remove jupyter
 ```
@@ -37,3 +37,4 @@ sudo apt install jupyter
 ```
 jupyter notebook
 ```
+# Please be reminded, by default, the notebook is designed to use locally, in case you need a rlong simulaition, you should consider run the input on a HPC version of OpenMM, or a clould based version with a proper GPU, instead locally. 
