@@ -1,20 +1,20 @@
-# OpenMM_AMBERTOOLS
+# Ambertools-OpenMM-MD
 
 # Usage
 It is assumed you already got anaconda installed on your linux computer, visit https://docs.anaconda.com/# to get one.
 ```
-git clone https://github.com/quantaosun/OpenMM_AMBERTOOLS
+git clone https://github.com/quantaosun/Ambertools-OpenMM-MD.git
 ```
 ```
-cd NAMD-MD
+cd Ambertools-OpenMM-MD
 ```
 Create a new Conda environment named "OpnenMM_AMBERTOOLS"
 ```
-conda create -n NAMD-MD python=3.7
+conda create -n Ambertools-OpenMM-MD python=3.7
 ```
 Activate the new environment 
 ```
-conda activate OpnenMM_AMBERTOOLS
+conda activate Ambertools-OpenMM-MD
 ```
 In the new environment, install jupyter notebook
 ```
@@ -22,5 +22,5 @@ conda install jupyter
 ```
 Start jupyter notebook and run the "Amber_local.ipynb"
 ```
-jupyter notebook NAMD-MD_local.ipynb
+jupyter notebook Amber-OpenMM-MD.ipynb
 ```
