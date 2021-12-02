@@ -16,17 +16,6 @@ Activate the new environment
 ```
 conda activate OpnenMM_AMBERTOOLS
 ```
-Install openmm
-```
-conda install -c conda-forge openmm
-```
-
-Install Ambertools
-```
-conda install -c conda-forge ambertools=21 compilers
-```
-
-```
 In the new environment, install jupyter notebook
 ```
 conda install jupyter
