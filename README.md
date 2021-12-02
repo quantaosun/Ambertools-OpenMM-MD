@@ -11,7 +11,7 @@ git clone https://github.com/quantaosun/Ambertools-OpenMM-MD.git
 ```
 cd Ambertools-OpenMM-MD
 ```
-Create a new Conda environment named "OpnenMM_AMBERTOOLS"
+Create a new Conda environment named "Ambertools-OpenMM-MD "
 ```
 conda create -n Ambertools-OpenMM-MD python=3.7
 ```
