@@ -1,5 +1,5 @@
 # Ambertools-OpenMM-MD
-The author of this repository try to introduce molecular dynamics of protein to more people, especially those beginners, with all open-souuced resouces.
+The author of this repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-souuced resouces.
 Ambertools(https://ambermd.org/AmberTools.php), H++ web server (http://biophysics.cs.vt.edu/), openmm(https://openmm.org/), and py3Dmol(https://github.com/avirshup/py3dmol), as well as open babel(https://github.com/openbabel/openbabel) are the main components contained in this protocal. The force file package used is Amber(https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
 
 This is designed only for learning purpose, anyone with commercial purpose might need a commercial license in relation to some certain package.
