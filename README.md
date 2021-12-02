@@ -37,4 +37,4 @@ sudo apt install jupyter
 ```
 jupyter notebook
 ```
-# Please be reminded, by default, the notebook is designed to use locally, in case you need a rlong simulaition, you should consider run the input on a HPC version of OpenMM, or a clould based version with a proper GPU, instead locally. 
+# Please be reminded, by default, the notebook is designed to use locally, in case of a long simulaition, please consider run the job on a HPC version of OpenMM, with a proper GPU (or a clould version like on Colab).
