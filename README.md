@@ -40,3 +40,4 @@ sudo apt install jupyter
 jupyter notebook
 ```
 # Note, when you excute openmm-setup, your web browser will be automaticlly open, and you shoud do some work there outside of the notebook itself.
+# If you use MacOs, you might need to install some little things otherwise is installed by default, like wget, with brew.
