@@ -34,8 +34,10 @@ Select the first code cell, then click play button above, all the codes inside f
 You are supposed to provide a PDB code, i.e, change 7L10 to your choice. When you run pdbfixer, pay attention to your browser, a new window should open, go there to
 sanitise your protein by deleteling all waters, all hetero, keep only protein. After having finishing pdbfixer and save you clean protein, click the square botton next to play botton to stop the code cell, otherwise you will not allowed to move to next cell.
 ![image](https://user-images.githubusercontent.com/75652473/146885334-f549740d-8c72-46d4-8a52-e2c4d0dbd9d1.png)
-
-
+Another cell need your modification is the ligand ID, it can be found from PDB bank, it is a three-letter code, change XEY to the new code.
+![image](https://user-images.githubusercontent.com/75652473/146888441-6c6bdd0b-69af-4431-a5b6-4346b4ceb566.png)
+The rest cells can be run without interfere, until the very last one, similar to prvious pdbfixer step, a new windown will open in your browser, the last section of this whole process will be finished there.
+![image](https://user-images.githubusercontent.com/75652473/146885748-2aeefba8-9a9a-401a-992b-e17590bf8f1d.png)
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, try 
 ```
 conda remove jupyter
