@@ -37,5 +37,5 @@ conda remove jupyter
 sudo apt install jupyter
 ```
 ```
-jupyter notebook
+jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
