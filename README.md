@@ -29,7 +29,7 @@ Start jupyter notebook and run the "Amber-OpenMM-MD.ipynb"
 ```
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
-# If you have problem opening jupyter notebook in your "Amber-OpenMM-MD" environment, try 
+If you have problem opening jupyter notebook in your "Amber-OpenMM-MD" environment, try 
 ```
 conda remove jupyter
 ```
