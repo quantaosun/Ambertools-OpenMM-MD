@@ -36,7 +36,7 @@ sanitise your protein by deleteling all waters, all hetero, keep only protein. A
 ![image](https://user-images.githubusercontent.com/75652473/146885334-f549740d-8c72-46d4-8a52-e2c4d0dbd9d1.png)
 Another cell need your modification is the ligand ID, it can be found from PDB bank, it is a three-letter code, change XEY to the new code, change 7L10.pdb to new pdb as well.
 ![image](https://user-images.githubusercontent.com/75652473/146888441-6c6bdd0b-69af-4431-a5b6-4346b4ceb566.png)
-The rest cells can be run without interfere, until the very last one, similar to prvious pdbfixer step, a new windown will open in your browser, the last section of this whole process will be finished there.
+The rest cells can be run without interfere, until the very last one, similar to prvious pdbfixer step, a new windown will open in your browser, the last section of this whole process will be finished there. For the default 7L10 example, simulation speed is about 8 nano second per day, on Macpro 2020 (M1). 
 ![image](https://user-images.githubusercontent.com/75652473/146885748-2aeefba8-9a9a-401a-992b-e17590bf8f1d.png)
 
 Future work
