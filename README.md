@@ -39,6 +39,10 @@ Another cell need your modification is the ligand ID, it can be found from PDB b
 The rest cells can be run without interfere, until the very last one, similar to prvious pdbfixer step, a new windown will open in your browser, the last section of this whole process will be finished there.
 ![image](https://user-images.githubusercontent.com/75652473/146885748-2aeefba8-9a9a-401a-992b-e17590bf8f1d.png)
 
+Future work
+
+I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Due to this is just my part-time interest, the work are now at low priority. 
+
 Troulbeshooting:
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, try 
 ```
