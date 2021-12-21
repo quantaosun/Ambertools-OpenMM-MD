@@ -6,7 +6,7 @@ This is designed only for learning purpose, anyone with commercial purpose might
  
 
 # Usage
-It is assumed you already got anaconda installed on your linux computer, visit https://docs.anaconda.com/# to get one if not installed.
+It is assumed you already got anaconda installed on your Linux/Mac computer, visit https://docs.anaconda.com/# to get one if not installed.
 ```
 git clone https://github.com/quantaosun/Ambertools-OpenMM-MD.git
 ```
