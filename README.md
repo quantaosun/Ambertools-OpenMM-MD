@@ -44,7 +44,7 @@ Future work
 I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Since this is my part-time interest, the work is taken as low priority. 
 
 Troulbeshooting:
-If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, try 
+If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, this might happen when you have run the workflow multiple times,try 
 ```
 conda remove jupyter
 ```
