@@ -41,7 +41,7 @@ The rest cells can be run without interfere, until the very last one, similar to
 
 Future work
 
-I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Due to this is just my part-time interest, the work are now at low priority. 
+I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Since this is my part-time interest, the work is taken as low priority. 
 
 Troulbeshooting:
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, try 
