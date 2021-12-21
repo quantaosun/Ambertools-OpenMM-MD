@@ -15,13 +15,13 @@ cd Ambertools-OpenMM-MD
 ```
 Create a new Conda environment named "Ambertools-OpenMM-MD "
 ```
-conda create -n Ambertools-OpenMM-MD python=3.7
+conda create -n Ambertools-OpenMM-MD python=3.7 (noly run this for the 1st time)
 ```
 Activate the new environment 
 ```
 conda activate Ambertools-OpenMM-MD
 ```
-In the new environment, install jupyter notebook
+In the new environment, install jupyter notebook (only run this for the 1st time)
 ```
 conda install jupyter
 ```
@@ -29,7 +29,7 @@ Start jupyter notebook and run the "Amber-OpenMM-MD.ipynb"
 ```
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
-If you have problem opening jupyter notebook in your "Amber-OpenMM-MD" environment, try 
+If you have problem opening jupyter notebook, (not likely for the 1st time) in your "Amber-OpenMM-MD" environment, try 
 ```
 conda remove jupyter
 ```
