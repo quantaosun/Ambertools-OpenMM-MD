@@ -29,6 +29,9 @@ Start jupyter notebook and run the "Amber-OpenMM-MD.ipynb"
 ```
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
+Select the first code cell, then click "run" button above, all the codes inside first block will be executed, run all the cells one by one until simulation finish.
+![image](https://user-images.githubusercontent.com/75652473/146884751-256a5668-4de9-4818-9631-29c3984d41a2.png)
+
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, try 
 ```
 conda remove jupyter
