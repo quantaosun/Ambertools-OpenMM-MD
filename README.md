@@ -32,7 +32,7 @@ jupyter notebook Ambertools-OpenMM-MD.ipynb
 Select the first code cell, then click play button above, all the codes inside first block will be executed. Run all the cells in a sequencial manner.
 ![image](https://user-images.githubusercontent.com/75652473/146891584-fc35c91a-262e-4edb-834e-aa253ca7c236.png)
 You are supposed to provide a PDB code, i.e, change 7L10 to your choice. When you run pdbfixer, pay attention to your browser, a new window should open, go there to
-sanitise your protein by deleteling all waters, all hetero, keep only protein. After having finishing pdbfixer and save you clean protein, click the square botton next to play botton to stop the code cell, otherwise you will not allowed to move to next cell.
+sanitise your protein by deleteling all waters, all hetero, keep only protein. After having finishing pdbfixer and save you clean protein, click the square botton next to play botton to stop the code cell, otherwise you will not allowed to move to next cell. （It is possible to simulate a doced pdb file, but not discussed here）
 ![image](https://user-images.githubusercontent.com/75652473/146885334-f549740d-8c72-46d4-8a52-e2c4d0dbd9d1.png)
 Another cell need your modification is the ligand ID, it can be found from PDB bank, it is a three-letter code, change XEY to the new code, change 7L10.pdb to new pdb as well.
 ![image](https://user-images.githubusercontent.com/75652473/146888441-6c6bdd0b-69af-4431-a5b6-4346b4ceb566.png)
