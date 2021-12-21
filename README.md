@@ -30,7 +30,7 @@ Start jupyter notebook and run the "Amber-OpenMM-MD.ipynb"
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
 Select the first code cell, then click play button above, all the codes inside first block will be executed. Run all the cells in a sequencial manner.
-![image](https://user-images.githubusercontent.com/75652473/146884751-256a5668-4de9-4818-9631-29c3984d41a2.png)
+![image](https://user-images.githubusercontent.com/75652473/146891584-fc35c91a-262e-4edb-834e-aa253ca7c236.png)
 You are supposed to provide a PDB code, i.e, change 7L10 to your choice. When you run pdbfixer, pay attention to your browser, a new window should open, go there to
 sanitise your protein by deleteling all waters, all hetero, keep only protein. After having finishing pdbfixer and save you clean protein, click the square botton next to play botton to stop the code cell, otherwise you will not allowed to move to next cell.
 ![image](https://user-images.githubusercontent.com/75652473/146885334-f549740d-8c72-46d4-8a52-e2c4d0dbd9d1.png)
