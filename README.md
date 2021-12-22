@@ -43,7 +43,8 @@ Future work
 
 I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Since this is my part-time interest, the work is taken as low priority. A very handy online tool could be https://usegalaxy.org.au/ 
 
-You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which could tell you if the simulation has reach equilbrium or not.
+You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which could tell you if the simulation has reach equilbrium or not. In this case, the simulation is not, due to very short time.
+
 ![image](https://user-images.githubusercontent.com/75652473/147025989-c66b3789-ea81-4f6f-aa27-402cc8aa4ce0.png)
 
 Troulbeshooting:
