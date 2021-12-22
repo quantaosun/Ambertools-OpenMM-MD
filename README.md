@@ -41,7 +41,10 @@ The rest cells can be run without interfere, until the very last one, similar to
 
 Future work
 
-I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Since this is my part-time interest, the work is taken as low priority. 
+I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Since this is my part-time interest, the work is taken as low priority. A very handy online tool could be https://usegalaxy.org.au/ 
+
+You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which could tell you if the simulation has reach equilbrium or not.
+![image](https://user-images.githubusercontent.com/75652473/147025989-c66b3789-ea81-4f6f-aa27-402cc8aa4ce0.png)
 
 Troulbeshooting:
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, this might happen when you have run the workflow multiple times,try 
