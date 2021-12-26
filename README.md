@@ -49,7 +49,8 @@ You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which co
 
 For People who can read Chinese, I recommend you read my blog on 中文分析链接 https://www.zhihu.com/people/wy15377222732 which shows a local Mac way of analyzing the MD output with Bio3D in R language.
 
-Troulbeshooting:
+# Troulbeshooting
+
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, this might happen when you have run the workflow multiple times,try 
 ```
 conda remove jupyter
