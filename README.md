@@ -41,11 +41,13 @@ The rest cells can be run without interfere, until the very last one, similar to
 
 Trajectory Analysis
 
-A very handy online tool could be https://usegalaxy.org.au/ 
+A very handy online tool could be https://usegalaxy.org.au/, it is essentially a web server based on Bio3D http://thegrantlab.org/bio3d/.
 
 You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which could tell you if the simulation has reach equilbrium or not. In this case, the simulation is not, due to very short time.
 
 ![image](https://user-images.githubusercontent.com/75652473/147025989-c66b3789-ea81-4f6f-aa27-402cc8aa4ce0.png)
+
+For People who can read Chinese, I recommend you read my blog on https://www.zhihu.com/people/wy15377222732 which shows a local Mac way of analyzing the MD output with Bio3D in R language.
 
 Troulbeshooting:
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, this might happen when you have run the workflow multiple times,try 
