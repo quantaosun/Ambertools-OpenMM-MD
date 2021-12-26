@@ -39,9 +39,9 @@ Another cell need your modification is the ligand ID, it can be found from PDB b
 The rest cells can be run without interfere, until the very last one, similar to prvious pdbfixer step, a new windown will open in your browser, the last section of this whole process will be finished there. For the default 7L10 example, simulation speed is about 7.6 nano second per day, on Macpro 2020 (M1). 
 ![image](https://user-images.githubusercontent.com/75652473/146885748-2aeefba8-9a9a-401a-992b-e17590bf8f1d.png)
 
-Future work
+Trajectory Analysis
 
-I'll try to add an automatic analysis cells to generate movie, RMSD and RMSF plot, drifting distance of the ligand inside the binidng pocket, etc. Since this is my part-time interest, the work is taken as low priority. A very handy online tool could be https://usegalaxy.org.au/ 
+A very handy online tool could be https://usegalaxy.org.au/ 
 
 You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which could tell you if the simulation has reach equilbrium or not. In this case, the simulation is not, due to very short time.
 
