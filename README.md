@@ -1,6 +1,7 @@
 # Ambertools-OpenMM-MD
-Please come back later until H++ server is up, since this repository relies on it to prepare the initial protein structure, this could be caused by network problem, outage or a website maintenance is in progress. If you could correctly prepare a starting protein PDB, you can still use all the content of the ipynb file, except protein processing at the beginning.
-![image](https://user-images.githubusercontent.com/75652473/147806759-19602773-23d7-4afe-a4fc-ee6170c5b761.png)
+Please come back later until H++ server is up, since this repository relies on it to prepare the initial protein structure, this could be caused by network problem, outage or a website maintenance is in progress. 
+
+H++ is under maintanace and will be avaliable in early 2022.
 
 This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
 Ambertools (https://ambermd.org/AmberTools.php), H++ web server (http://biophysics.cs.vt.edu/), openmm (https://openmm.org/), and py3Dmol (https://github.com/avirshup/py3dmol), as well as open babel (https://github.com/openbabel/openbabel) are the main components of this protocal. The force field used is Amber (https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
