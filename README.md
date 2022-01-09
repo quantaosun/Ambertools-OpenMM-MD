@@ -48,7 +48,7 @@ You can upload the complex.pdb and trajectory.dcd to get an RMSD image, which co
 
 ![image](https://user-images.githubusercontent.com/75652473/147025989-c66b3789-ea81-4f6f-aa27-402cc8aa4ce0.png)
 
-For People who can read Chinese, I recommend you read my blog on 中文分析链接 https://zhuanlan.zhihu.com/p/448829436 which shows a local Mac way of analyzing the MD output with Bio3D in R language.
+For People who can read Chinese, I recommend you read my blog on 中文分析链接 https://zhuanlan.zhihu.com/p/448829436 which shows a local Win/Mac way of analyzing the MD output with Bio3D in R language.
 
 # Troubleshooting
 
