@@ -46,7 +46,7 @@ It is possible to use VMD to do all related analysis, but to me it is really ted
 
 # MMGBSA/PBSA free energy calculation and per-residue decomposition
 
-Energy related section is not included in the notebook since I added this later, I put it here instead
+Energy related section is not included in the notebook since I added this later, I put it here instead. Note if some of the file names in your simulation has been modified you also need to modify the name of the files below inside the coding cell.
 
 It is suggested for new users, GB based decomposition be tried before PB due to its difficulty and longer time would needed.
 The following script takes 3RY2, biotin bound protein as an example, the simulation was finished by [making-it-rain ](https://github.com/pablo-arantes/making-it-rain/blob/main/Protein_ligand.ipynb) online for free. We can use exactly the same way here, just change the input name is fine, note the code below do the bindnig free energy decomposition to all you protein residues not on your bindng pocket residues only, so you might need to extract those binidng residues yourself for analysis.
