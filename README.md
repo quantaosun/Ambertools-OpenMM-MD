@@ -44,6 +44,55 @@ The rest cells can be run without interfere, until the very last one, similar to
 
 It is possible to use VMD to do all related analysis, but to me it is really tedious and there is a lack of beauty. I strongly recommend people to use Bio3D in Rstudio, so just download and install a package called Rstudio, it provides you with an R computer language environment, in that environment, install Bio3D, then finish all the plot there is really easy.
 
+# MMGBSA/PBSA free energy calculation and per-residue decomposition
+
+Energy related section is not included in the notebook since I added this later, I put it here instead
+
+It is suggested for new users, GB based decomposition be tried before PB due to its difficulty and longer time would needed.
+The following script takes 3RY2, biotin bound protein as an example, the simulation was finished by [making-it-rain ](https://github.com/pablo-arantes/making-it-rain/blob/main/Protein_ligand.ipynb)
+
+
+1. Create a new file called mmpbsa.in, write inside. ( Copied from making-it-rain, the format is slightly different from that of Amber tutorial)
+
+```
+&general 
+  endframe=1000,  interval=100, strip_mask=:WAT:Na+:Cl-:Mg+:K+, 
+/ 
+&gb 
+ igb=2, saltcon=0.15, 
+/ 
+
+&decomp
+
+ idecomp=1,
+
+/
+
+/
+```
+The decomposed data is saved in a file called FINAL_DECOMP_MMPBSA.dat
+
+2. Run ante-MMPBSA.py, the result will go to a folder called final_mmpbsa
+
+But first let's define Amber home
+
+
+```
+source /usr/local/amber.sh
+```
+
+
+```
+ante-MMPBSA.py  -p SYS_gaff2.prmtop -c com.prmtop -r rec.prmtop -l ligand.prmtop -s :WAT:Na+:Cl-:Mg+:K+ -n :LIG --radii mbondi2 
+```
+
+3. Run MMPBSA.py, write the result to a file called FINAL_RESULTS_MMPBSA.dat
+
+
+```
+MMPBSA.py -O -i mmpbsa.in -o FINAL_RESULTS_MMPBSA_decomposition.dat -sp  SYS_gaff2.prmtop -cp com.prmtop -rp rec.prmtop -lp ligand.prmtop -y prot_lig_prod_all.dcd
+```
+
 # Troubleshooting
 
 If you have problem opening jupyter notebook from your "Amber-OpenMM-MD" environment, this might happen when you have run the workflow multiple times,try 
