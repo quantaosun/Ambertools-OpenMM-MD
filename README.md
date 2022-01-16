@@ -72,7 +72,7 @@ The following script takes 3RY2, biotin bound protein as an example, the simulat
 ```
 The decomposed data is saved in a file called FINAL_DECOMP_MMPBSA.dat
 
-2. Run ante-MMPBSA.py, the result will go to a folder called final_mmpbsa
+2. Run ante-MMPBSA.py
 
 But first let's define Amber home
 
