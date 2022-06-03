@@ -2,7 +2,7 @@
 
 # WARNING 
 
-H++ webserver trouble shooting, If you consistanlty meet problem about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures instead of PDB bank version. 
+H++ webserver trouble shooting, If you consistanlty meet problem about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures from AlphaFold2 https://alphafold.ebi.ac.uk/ instead of PDB bank version. 
 ![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
 
 ---------------------------------------------
