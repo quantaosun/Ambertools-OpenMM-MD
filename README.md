@@ -5,7 +5,7 @@
 Warning1, H++ webserver trouble shooting, If you consistanlty meet problem about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures from AlphaFold2 https://alphafold.ebi.ac.uk/ instead of PDB bank version. 
 ![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
 
-Warning2, It has been noticed Ambertools' "reduce" or even open babel sometime gives the wrong H number, for example, accidentally add a H to a carbonyl group, in this case there will be an error saying "electro number is not odd", you should carefully check the chemical structure after hydrogen adding. If "reduce" or Obabel keep adding wrong number, please considue using Pymol's "h_add" to add H to small molecules and compare to the result out of "reduce" or Obabel.
+Warning2. Ambertools' "reduce" and open babel sometimes gives the wrong H number. For example, it was accidentally adding an H to a carbonyl group or adding an extra H to an aromatic ring it shouldn't. There will be an error saying "electro number is odd" in this case, you should carefully check the chemical structure after hydrogen addition. If "reduce" or Obabel keeps adding the wrong number, please consider using Pymol's "h_add" to add H to small molecules and compare to the result out of "reduce" or Obabel. The error is currently unclear why it happens, but the error always adds more H, not less, to the best of my knowledge.
 
 ---------------------------------------------
 
