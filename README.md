@@ -7,6 +7,9 @@ Warning1, H++ webserver troubleshooting, If you consistently meet problems about
 
 Warning2. Ambertools' "reduce" and open babel sometimes gives the wrong H number. For example, it was accidentally adding an H to a carbonyl group or adding an extra H to an aromatic ring it shouldn't. There will be an error saying "electro number is odd" in this case, you should carefully check the chemical structure after hydrogen addition. If "reduce" or Obabel keeps adding the wrong number, please consider using Pymol's "h_add" to add H to small molecules and compare to the result out of "reduce" or Obabel. The error is currently unclear why it happens, but the error always adds more H, not less, to the best of my knowledge.
 
+<img width="766" alt="image" src="https://user-images.githubusercontent.com/75652473/171793595-575c067c-6de3-4f59-ae31-fdfc1021be18.png">
+
+
 ---------------------------------------------
 
 This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
