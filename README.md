@@ -1,5 +1,12 @@
 # Ambertools-OpenMM-MD
 
+# WARNING 
+
+H++ webserver trouble shooting, If you consistanlty meet problem about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures instead of PDB bank version. 
+![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
+
+---------------------------------------------
+
 This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
 Ambertools (https://ambermd.org/AmberTools.php), H++ web server (http://newbiophysics.cs.vt.edu/H++/), openmm (https://openmm.org/), and py3Dmol (https://github.com/avirshup/py3dmol), as well as open babel (https://github.com/openbabel/openbabel) are the main components of this protocal. The force field used is Amber (https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
 
@@ -106,6 +113,4 @@ sudo apt install jupyter
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
 
-H++ webserver trouble shooting, If you consistanlty meet problem about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures instead of PDB bank version. 
-![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
 
