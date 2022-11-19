@@ -20,7 +20,7 @@ cd Ambertools-OpenMM-MD
 ```
 Create a new Conda environment named "Ambertools-OpenMM-MD " (noly run this for the 1st time)
 ```
-conda create -n Ambertools-OpenMM-MD python=3.7 
+conda create -n Ambertools-OpenMM-MD python=3.8.8 
 ```
 Activate the new environment 
 ```
