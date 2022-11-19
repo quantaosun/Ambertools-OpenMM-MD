@@ -1,19 +1,7 @@
 # Ambertools-OpenMM-MD
 
-# Run the simulation with Google's free GPU if you don't have a good local computer to support you finsh you work.
-<img width="1015" alt="image" src="https://user-images.githubusercontent.com/75652473/171800298-8b9ca368-cdbc-440e-8a79-87ba10423bf7.png">
-
-# WARNING 
-
-Warning1, H++ webserver troubleshooting, If you consistently meet problems about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures from AlphaFold2 https://alphafold.ebi.ac.uk/ (for example, right) instead of PDB bank version (for example, left). There will be some weird looking branches, but that is fine to carry on. And please delete any repeated chains if it has multiple chains, to increse simulation speed, also to minimise the chances to have unnecessary errors in relation to multiple chains.
-![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
-
-Warning2. Ambertools' "reduce" and open babel sometimes gives the wrong H number. For example, it was accidentally adding an H to a carbonyl group or adding an extra H to an aromatic ring it shouldn't. There will be an error saying "electro number is odd" in this case, you should carefully check the chemical structure after hydrogen addition. If "reduce" or Obabel keeps adding the wrong number, please consider using Pymol's "h_add" to add H to small molecules and compare to the result out of "reduce" or Obabel. The error is currently unclear why it happens, but the error always adds more H, not less, to the best of my knowledge.
-
-<img width="766" alt="image" src="https://user-images.githubusercontent.com/75652473/171793595-575c067c-6de3-4f59-ae31-fdfc1021be18.png">
-
-
----------------------------------------------
+## Why do you need just another simulation workflow, well this one try to allow you click your mouse to finish a MD simulaiton instead of using crazy 
+## lines after lines of commands.
 
 This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
 Ambertools (https://ambermd.org/AmberTools.php), H++ web server (http://newbiophysics.cs.vt.edu/H++/), openmm (https://openmm.org/), and py3Dmol (https://github.com/avirshup/py3dmol), as well as open babel (https://github.com/openbabel/openbabel) are the main components of this protocal. The force field used is Amber (https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
@@ -71,9 +59,6 @@ The following script takes 3RY2, biotin bound protein as an example, the simulat
 &decomp
 
  idecomp=1,
-
-/
-
 /
 ```
 The decomposed data is saved in a file called FINAL_DECOMP_MMPBSA.dat
@@ -113,3 +98,14 @@ jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
 
 
+# Run the simulation with Google's free GPU if you don't have a good local computer to support you finsh you work.
+<img width="1015" alt="image" src="https://user-images.githubusercontent.com/75652473/171800298-8b9ca368-cdbc-440e-8a79-87ba10423bf7.png">
+
+# WARNING 
+
+Warning1, H++ webserver troubleshooting, If you consistently meet problems about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures from AlphaFold2 https://alphafold.ebi.ac.uk/ (for example, right) instead of PDB bank version (for example, left). There will be some weird looking branches, but that is fine to carry on. And please delete any repeated chains if it has multiple chains, to increse simulation speed, also to minimise the chances to have unnecessary errors in relation to multiple chains.
+![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
+
+Warning2. Ambertools' "reduce" and open babel sometimes gives the wrong H number. For example, it was accidentally adding an H to a carbonyl group or adding an extra H to an aromatic ring it shouldn't. There will be an error saying "electro number is odd" in this case, you should carefully check the chemical structure after hydrogen addition. If "reduce" or Obabel keeps adding the wrong number, please consider using Pymol's "h_add" to add H to small molecules and compare to the result out of "reduce" or Obabel. The error is currently unclear why it happens, but the error always adds more H, not less, to the best of my knowledge.
+
+<img width="766" alt="image" src="https://user-images.githubusercontent.com/75652473/171793595-575c067c-6de3-4f59-ae31-fdfc1021be18.png">
