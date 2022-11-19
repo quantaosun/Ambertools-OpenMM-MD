@@ -1,8 +1,8 @@
 # Ambertools-OpenMM-MD
 
-## Why do you need just another simulation workflow, well this one try to allow you click your mouse to finish a MD simulaiton instead of using crazy lines after lines of commands. (Only MacOS and Linux supported)
+## Why do you need just another simulation workflow, well, this one tries to allow you to click your mouse to finish an MD simulation instead of using crazy lines after lines of commands. (Only macOS and Linux are supported. This is a repository designed primarily for local use)
 
-In a perfect world, there are only three things you need change for a PDB bank structure.
+In a perfect world, there are only three things you need to change for a PDB bank structure.
 
 1. 
 
@@ -20,25 +20,23 @@ PDB_ID = "7L10" ```
  !awk '$4=="XEY"' 7L10.pdb > ligand1.pdb 
  ```
 
-# Warning. This notebook allows you to directly run a Molecular Dynamic on your Mac or Linux, for a learning purpose. But personaly I will never do that due to it will definitely get hot and slow. It is fine for the short MD like this one, but generally we do that kind of job with cloud computing or computer clusters.
+# Warning. This notebook allows you to directly run a Molecular Dynamic on your Mac or Linux for a learning purpose. But personally, I probably will not do that. It will get hot and slow. It may be fine for the short MD like this one, but generally, we do that job with cloud computing or computer clusters. 
 
-## Note, you can run this on cloud platform, but in that case you choose to go back to use command line which is not the primary goal of this workflow. To use the cliking manner one has to use a local Mac or Linux computer.
-
-This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
+This repository try to introduce molecular dynamics of the protein-ligand complex to more people, especially those beginners, with all open-sourced resources.
 Ambertools (https://ambermd.org/AmberTools.php), H++ web server (http://newbiophysics.cs.vt.edu/H++/), openmm (https://openmm.org/), and py3Dmol (https://github.com/avirshup/py3dmol), as well as open babel (https://github.com/openbabel/openbabel) are the main components of this protocal. The force field used is Amber (https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
 
-This is designed only for learning purpose, anyone with commercial purpose might need to check out by themself if they need a commercial license in relation to some certain package, even these are all "open source".
+This is designed only for learning purposes. Anyone with commercial purposes might need to check out by themself if they need a commercial license for some certain package, even if these are all "open source".
  
 
 # Usage
-It is assumed you already got anaconda installed on your Linux/Mac computer, visit https://docs.anaconda.com/# to get one if not installed.
+It is assumed you already got anaconda installed on your Linux/Mac computer. Visit https://docs.anaconda.com/# to get one if not installed.
 ```
 git clone https://github.com/quantaosun/Ambertools-OpenMM-MD.git
 ```
 ```
 cd Ambertools-OpenMM-MD
 ```
-Create a new Conda environment named "Ambertools-OpenMM-MD " (noly run this for the 1st time)
+Create a new Conda environment named "Ambertools-OpenMM-MD " (only run this for the 1st time)
 ```
 conda create -n Ambertools-OpenMM-MD python=3.8.8 
 ```
@@ -57,17 +55,17 @@ jupyter notebook Ambertools-OpenMM-MD.ipynb
 
 # Result Analysis
 
-It is possible to use VMD to do all related analysis, but to me it is really tedious and there is a lack of beauty. I strongly recommend people to use Bio3D in Rstudio, so just download and install a package called Rstudio, it provides you with an R computer language environment, in that environment, install Bio3D, then finish all the plot there is really easy.
+It is possible to use VMD to do all related analyses, but to me, it is tedious, and there is a lack of beauty. I strongly recommend people use Bio3D in Rstudio, so download and install a package called Rstudio. It provides you with an R computer language environment. In that environment, installing Bio3D and then finishing all the plots there is easy.
 
 # MMGBSA/PBSA free energy calculation and per-residue decomposition
 
-Energy related section is not included in the notebook since I added this later, I put it here instead. Note if some of the file names in your simulation has been modified you also need to modify the name of the files below inside the coding cell.
+The energy-related section is not included in the notebook since I added this later, I put it here instead. Note if some of the file names in your simulation have been modified, you also need to modify the name of the files below inside the coding cell.
 
-It is suggested for new users, GB based decomposition be tried before PB due to its difficulty and longer time would needed.
-The following script takes 3RY2, biotin bound protein as an example, the simulation was finished by [making-it-rain ](https://github.com/pablo-arantes/making-it-rain/blob/main/Protein_ligand.ipynb) online for free. We can use exactly the same way here, just change the input name is fine, note the code below do the bindnig free energy decomposition to all you protein residues not on your bindng pocket residues only, so you might need to extract those binidng residues yourself for analysis.
+It is suggested for new users, GB based decomposition be tried before PB due to its difficulty and longer time would need.
+The following script takes 3RY2, biotin-bound protein as an example, the simulation was finished by [making-it-rain ](https://github.com/pablo-arantes/making-it-rain/blob/main/Protein_ligand.ipynb) online for free. We can use it the same way here. Changing the input name is fine. Note the code below does the binding free energy decomposition to all your protein residues, not on your binding pocket residues only, so you might need to extract those binding residues yourself for analysis.
 
 
-1. Create a new file called mmpbsa.in, write inside. ( Copied from making-it-rain, the format is slightly different from that of Amber tutorial)
+1. Create a new file called mmpbsa.in, and write inside. ( Copied from making-it-rain, the format is slightly different from that of Amber tutorial)
 
 ```
 &general 
@@ -86,7 +84,7 @@ The decomposed data is saved in a file called FINAL_DECOMP_MMPBSA.dat
 
 2. Run ante-MMPBSA.py
 
-But first let's define Amber home
+But first, let's define Amber's home
 
 
 ```
@@ -117,22 +115,22 @@ sudo apt install jupyter
 ```
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
-## If you can not open your notebook for the very first time, try upgrade something as suggested in
+## If you can not open your notebook for the very first time, try upgrading something as suggested in
 https://github.com/jupyter/notebook/issues/5014 
 
 ```
 pip install --upgrade jupyter_client
 ```
-Obviously there will be some little thing like if you use MacOS, you need deal with ```wget``` usually is not installed by default. so you may need to use ```brew``` to install ```wget```. Have a look at https://stackoverflow.com/questions/33886917/how-to-install-wget-in-macos
+There will be some little things like if you use macOS, you need to deal with ```wget``` usually is not installed by default. so you may need to use ```brew``` to install ```wget```. Have a look at https://stackoverflow.com/questions/33886917/how-to-install-wget-in-macos
 
-# Run the simulation with Google's free GPU if you don't have a good local computer to support you finsh you work.
+# Simulate with Google's free GPU if you don't have a good local computer to support you finish your work.
 <img width="1015" alt="image" src="https://user-images.githubusercontent.com/75652473/171800298-8b9ca368-cdbc-440e-8a79-87ba10423bf7.png">
 
 # WARNING 
 
-Warning1, H++ webserver troubleshooting, If you consistently meet problems about missing residues that can not be fixed by PDBfixer, you are suggested to use predicted structures from AlphaFold2 https://alphafold.ebi.ac.uk/ (for example, right) instead of PDB bank version (for example, left). There will be some weird looking branches, but that is fine to carry on. And please delete any repeated chains if it has multiple chains, to increse simulation speed, also to minimise the chances to have unnecessary errors in relation to multiple chains.
+Warning1, H++ webserver troubleshooting, If you consistently meet problems with missing residues that PDBfixer can not fix, you are suggested to use predicted structures from AlphaFold2 https://alphafold.ebi.ac.uk/ (for example, right) instead of PDB bank version (for example, left). There will be some weird-looking branches, but that is fine to carry on. And please delete any repeated chains if it has multiple chains to increase simulation speed, and also to minimise the chances of having unnecessary errors about multiple chains.
 ![image](https://user-images.githubusercontent.com/75652473/171746366-5f17177f-b69f-42f4-815c-64b06bd2b074.png)
 
-Warning2. Ambertools' "reduce" and open babel sometimes gives the wrong H number. For example, it was accidentally adding an H to a carbonyl group or adding an extra H to an aromatic ring it shouldn't. There will be an error saying "electro number is odd" in this case, you should carefully check the chemical structure after hydrogen addition. If "reduce" or Obabel keeps adding the wrong number, please consider using Pymol's "h_add" to add H to small molecules and compare to the result out of "reduce" or Obabel. The error is currently unclear why it happens, but the error always adds more H, not less, to the best of my knowledge.
+Warning2. Ambertools' "reduce" and open babel sometimes gives the wrong H number. For example, it was accidentally adding an H to a carbonyl group or adding an extra H to an aromatic ring it shouldn't have. There will be an error saying, "electro number is odd" in this case, you should carefully check the chemical structure after hydrogen addition. If "reduce" or Obabel keeps adding the wrong number, please consider using Pymol's "h_add" to add H to small molecules and compare it to the result out of "reduce" or Obabel. The error is currently unclear why it happens, but the error always adds more H, not less, to the best of my knowledge.
 
 <img width="766" alt="image" src="https://user-images.githubusercontent.com/75652473/171793595-575c067c-6de3-4f59-ae31-fdfc1021be18.png">
