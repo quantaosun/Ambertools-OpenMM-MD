@@ -2,7 +2,7 @@
 
 ## Why do you need just another simulation workflow, well, this one tries to allow you to click your mouse (sorry guys not 100% clicking) to finish an MD simulation instead of using crazy lines after lines of commands. (Only macOS and Linux are supported. This is a repository designed primarily for local use)
 
-In a perfect world, there are only three things you need to change for your PDB bank structure.
+In a perfect world, there are only three things you need to change for your PDB bank structure. Afer that, techonically, all the other parts should be done by clicking your mouse.
 
 1. your laptop's path
 
