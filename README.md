@@ -2,6 +2,26 @@
 
 ## Why do you need just another simulation workflow, well this one try to allow you click your mouse to finish a MD simulaiton instead of using crazy lines after lines of commands. (Only MacOS and Linux supported)
 
+In a perfect world, there are only three things you need change for a PDB bank structure.
+
+1. 
+
+```
+import sys
+sys.path.append('/Users/quantaosun/opt/anaconda3/lib/python3.8/site-packages')
+```
+2.
+```
+PDB_ID = "7L10" ```
+```
+
+ 3.
+ ```
+ !awk '$4=="XEY"' 7L10.pdb > ligand1.pdb 
+ ```
+
+# Warning. This notebook allows you to directly run a Molecular Dynamic on your Mac or Linux, for a learning purpose. But personaly I will never do that due to it will definitely get hot and slow. It is fine for the short MD like this one, but generally we do that kind of job with cloud computing or computer clusters.
+
 ## Note, you can run this on cloud platform, but in that case you choose to go back to use command line which is not the primary goal of this workflow. To use the cliking manner one has to use a local Mac or Linux computer.
 
 This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
