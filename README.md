@@ -1,7 +1,6 @@
 # Ambertools-OpenMM-MD
 
-## Why do you need just another simulation workflow, well this one try to allow you click your mouse to finish a MD simulaiton instead of using crazy 
-## lines after lines of commands.
+## Why do you need just another simulation workflow, well this one try to allow you click your mouse to finish a MD simulaiton instead of using crazy lines after lines of commands. (Only MacOS and Linux supported)
 
 This repository try to introduce molecular dynamics of protein-ligand complex to more people, especially those beginners, with all open-sourced resouces.
 Ambertools (https://ambermd.org/AmberTools.php), H++ web server (http://newbiophysics.cs.vt.edu/H++/), openmm (https://openmm.org/), and py3Dmol (https://github.com/avirshup/py3dmol), as well as open babel (https://github.com/openbabel/openbabel) are the main components of this protocal. The force field used is Amber (https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
