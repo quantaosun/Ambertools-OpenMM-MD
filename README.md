@@ -103,6 +103,7 @@ https://github.com/jupyter/notebook/issues/5014
 ```
 pip install --upgrade jupyter_client
 ```
+Obviously there will be some little thing like if you use MacOS, you need deal with ```wget``` usually is not installed by default. so you may need to use ```brew``` to install ```wget```. 
 
 # Run the simulation with Google's free GPU if you don't have a good local computer to support you finsh you work.
 <img width="1015" alt="image" src="https://user-images.githubusercontent.com/75652473/171800298-8b9ca368-cdbc-440e-8a79-87ba10423bf7.png">
