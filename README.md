@@ -2,20 +2,20 @@
 
 ## Why do you need just another simulation workflow, well, this one tries to allow you to click your mouse (sorry guys not 100% clicking) to finish an MD simulation instead of using crazy lines after lines of commands. (Only macOS and Linux are supported. This is a repository designed primarily for local use)
 
-In a perfect world, there are only three things you need to change for a PDB bank structure.
+In a perfect world, there are only three things you need to change for your PDB bank structure.
 
-1. 
+1. your laptop's path
 
 ```
 import sys
 sys.path.append('/Users/quantaosun/opt/anaconda3/lib/python3.8/site-packages')
 ```
-2.
+2. PDB ID 
 ```
 PDB_ID = "7L10" ```
 ```
 
- 3.
+ 3. Small molecule ID
  ```
  !awk '$4=="XEY"' 7L10.pdb > ligand1.pdb 
  ```
