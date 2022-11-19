@@ -100,7 +100,7 @@ jupyter notebook Ambertools-OpenMM-MD.ipynb
 ## If you can not open your notebook for the very first time, try upgrade something as suggested in
 https://github.com/jupyter/notebook/issues/5014 
 
-``
+```
 pip install --upgrade jupyter_client
 ```
 
