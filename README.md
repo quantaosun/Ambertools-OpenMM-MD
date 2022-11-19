@@ -20,7 +20,7 @@ PDB_ID = "7L10" ```
  !awk '$4=="XEY"' 7L10.pdb > ligand1.pdb 
  ```
 
-# Warning. This notebook allows you to directly run a Molecular Dynamic on your Mac or Linux for a learning purpose. But personally, I probably will not do that. It will get hot and slow. It may be fine for the short MD like this one, but generally, we do that job with cloud computing or computer clusters. 
+# Warning. This notebook will directly use your local CPU to run a Molecular Dynamic on your Mac or Linux for a learning purpose. But personally, I probably will not do that. It will get hot and slow. It may be fine for the short MD like this one, but generally, we do that job with cloud computing or computer clusters. 
 
 This repository try to introduce molecular dynamics of the protein-ligand complex to more people, especially those beginners, with all open-sourced resources.
 Ambertools (https://ambermd.org/AmberTools.php), H++ web server (http://newbiophysics.cs.vt.edu/H++/), openmm (https://openmm.org/), and py3Dmol (https://github.com/avirshup/py3dmol), as well as open babel (https://github.com/openbabel/openbabel) are the main components of this protocal. The force field used is Amber (https://ambermd.org/AmberModels.php) for protein and GAFF (http://ambermd.org/antechamber/gaff.html) for small molecule.
