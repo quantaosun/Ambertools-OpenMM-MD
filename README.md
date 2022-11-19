@@ -1,15 +1,17 @@
 # Ambertools-OpenMM-MD
 
-## Prepare protein in your browser step 1 by providing a pdb bank structure
+## step 1, Prepare protein in your browser  by providing a pdb bank structure
 
 https://user-images.githubusercontent.com/75652473/202853115-39f5eb60-02b8-4571-bc41-cf30ec2e3e6c.mov
 
-## Continue prepare protein with the result from step 1 in your browser
+## Step 2, Continue prepare protein in your browser with the result from step 1 
 
 https://user-images.githubusercontent.com/75652473/202853190-16beebc3-4b39-4a26-a488-a6893b086ba2.mov
 
 
-## Why do you need just another simulation workflow, well, this one tries to allow you to click your mouse (sorry guys not 100% clicking) to finish an MD simulation instead of using crazy lines after lines of commands. (Only macOS and Linux are supported. This is a repository designed primarily for local use)
+## Why do you need just another simulation workflow, well, this one tries to allow you to click your mouse (sorry guys not 100% clicking) to finish an MD simulation instead of using crazy lines after lines of commands. (Only macOS and Linux are supported. This is a repository designed primarily for local use). 
+
+## As you can see from the two clips, we try to do everything with your brwoser, so you don't have to install anything. (You do have to install the conda env but you can always delete them all by ```conda env remove```)
 
 In a perfect world, there are only three things you need to change for your PDB bank structure. Afer that, techinically, all the other parts should be done by clicking your mouse.
 
