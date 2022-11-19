@@ -1,6 +1,10 @@
 # Ambertools-OpenMM-MD
 
+## Prepare protein in your browser step 1 by providing a pdb bank structure
+
 https://user-images.githubusercontent.com/75652473/202853115-39f5eb60-02b8-4571-bc41-cf30ec2e3e6c.mov
+
+## Continue prepare protein with the result from step 1 in your browser
 
 https://user-images.githubusercontent.com/75652473/202853190-16beebc3-4b39-4a26-a488-a6893b086ba2.mov
 
