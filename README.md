@@ -97,7 +97,12 @@ sudo apt install jupyter
 ```
 jupyter notebook Ambertools-OpenMM-MD.ipynb
 ```
+## If you can not open your notebook for the very first time, try upgrade something as suggested in
+https://github.com/jupyter/notebook/issues/5014 
 
+``
+pip install --upgrade jupyter_client
+```
 
 # Run the simulation with Google's free GPU if you don't have a good local computer to support you finsh you work.
 <img width="1015" alt="image" src="https://user-images.githubusercontent.com/75652473/171800298-8b9ca368-cdbc-440e-8a79-87ba10423bf7.png">
