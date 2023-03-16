@@ -1,5 +1,14 @@
 # Ambertools-OpenMM-MD
 
+#################### Trouble Shooting ################
+From time to time, there might be some issue for openmm-setup to open correctly, these typically are caused by third party dependencies changes over time
+You can update some certain dependencies if necessary, like 
+
+```
+conda update itsdangerous
+
+````
+############################################################
 ## step 1, Prepare protein in your browser  by providing a pdb bank structure
 
 https://user-images.githubusercontent.com/75652473/202853115-39f5eb60-02b8-4571-bc41-cf30ec2e3e6c.mov
