@@ -9,6 +9,7 @@ You can update some certain dependencies if necessary, like
 conda update itsdangerous
 
 ````
+Or if you have issue with openbabel installation, try python3.7 instead of 3.8
 ############################################################
 ## step 1, Prepare protein in your browser  by providing a pdb bank structure
 
