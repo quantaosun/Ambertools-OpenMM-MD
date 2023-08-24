@@ -1,0 +1,108 @@
+-I: Adding /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/prep to search path.
+-I: Adding /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/lib to search path.
+-I: Adding /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm to search path.
+-I: Adding /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./tleap.in
+----- Source: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/lib/amino12.lib
+Loading library: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/lib/aminoct12.lib
+Loading library: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/lib/aminont12.lib
+----- Source: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd/leaprc.gaff
+----- Source of /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 1.81, May 2017)
+----- Source: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/lib/atomic_ions.lib
+Loading library: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/lib/solvents.lib
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading Prep file: ./ligand5.prepi
+Loading parameters: ./ligand6.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading PDB file: ./complex.pdb
+-- residue 307: duplicate [ H] atoms (total 13)
+
+/Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/bin/teLeap: Warning!
+Atom names in each residue should be unique.
+     (Same-name atoms are handled by using the first
+      occurrence and by ignoring the rest.
+      Many instances of duplicate atom names usually come
+      from alternate conformations in the PDB file.)
+
+  total atoms in file: 4682
+  Solute vdw bounding box:              52.750 68.279 59.627
+  Total bounding box for atom centers:  68.750 84.279 75.627
+  Solvent unit box:                     18.774 18.774 18.774
+  Total vdw box size:                   71.755 87.189 78.923 angstroms.
+  Volume: 493762.489 A^3 
+  Total mass 244489.962 amu,  Density 0.822 g/cc
+  Added 11695 residues.
+
+/Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -4; ion1 charge = -1;
+     can't neutralize.
+Checking Unit.
+
+/Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/bin/teLeap: Warning!
+The unperturbed charge of the unit (-4.000000) is not zero.
+
+/Users/quantaosun/opt/anaconda3/envs/Ambertools-OpenMM-MD/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 974 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLN	1
+	NSER	1
+	WAT	11695
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 3; Notes = 1.
