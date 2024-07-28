@@ -17,7 +17,7 @@ git clone https://github.com/quantaosun/Ambertools-OpenMM-MD.git
 ```
 cd Ambertools-OpenMM-MD
 ```
-Create a new Conda environment named "Amber "
+Create a new Conda environment named "Amber ". Please modify the prefix path inside the yml file to your conda env path.
 ```
 conda env create -f environment_pined.yml
 ```
