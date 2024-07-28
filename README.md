@@ -17,13 +17,13 @@ git clone https://github.com/quantaosun/Ambertools-OpenMM-MD.git
 ```
 cd Ambertools-OpenMM-MD
 ```
-Create a new Conda environment named "Ambertools-OpenMM-MD " (only run this for the 1st time)
+Create a new Conda environment named "Amber "
 ```
-conda create -n Ambertools-OpenMM-MD python=3.8.8 
+conda env create -f environment_pined.yml
 ```
 Activate the new environment. 
 ```
-Conda activate Ambertools-OpenMM-MD
+Conda activate Amber
 ```
 In the new environment, install jupyter notebook (only run this for the 1st time)
 ```
