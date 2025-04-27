@@ -27,7 +27,7 @@ Conda activate Amber
 ```
 In the new environment, install jupyter notebook (only run this for the 1st time)
 ```
-conda install jupyter
+conda install -c conda-forge jupyter
 ```
 Start jupyter notebook and run the "Amber-OpenMM-MD.ipynb"
 ```
